@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
@@ -15,12 +16,16 @@
     "serve-favicon": "~2.4.2",
     "monk": "^1.0.1",
     "monk":"https://github.com/vccabral/monk.git",
+    "mongoose": "*",
     "connect-flash":"*",
     "express-validator":"*",
     "express-session":"*",
     "express-messages":"*",
     "multer":"*",
     "moment":"*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
     "mongodb":"*"
   }
 }
